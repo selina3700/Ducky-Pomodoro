@@ -1,5 +1,6 @@
 # Ducky-Pomodoro 🦆
 
+My first personal project! <3 inspired by @Nashallery on youtube :D
 A fun and adorable Electron-based Pomodoro timer featuring animated ducks to help you stay focused and productive!
 
 ## 🎯 Features
