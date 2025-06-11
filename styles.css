@@ -1,0 +1,223 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #D7E0F5;
+    -webkit-app-region: drag;
+}
+
+.app-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #D7E0F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #4C5E89;
+    image-rendering: pixelated;
+}
+
+.container, .label {
+    image-rendering: pixelated;
+    width: 280px;
+    height: 380px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #D7E0F5;
+    background-image: url('Images/Background.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    border: 2px solid #4C5E89;
+}
+
+.container h4{
+    font-family: Pixelify Sans;
+    font-size: 18px;
+    font-weight: bold;
+    color: #092056;
+    margin-top: -35px;
+    margin-bottom: 50px;
+}
+
+.title{
+    max-width: 100%;
+    height: auto;
+    margin-top: -35px;
+    margin-bottom: 50px;
+}
+
+.dewey{
+    width: 170px;
+    height: 170px;
+    margin-top: -70px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #F4C542;
+    border: 2px solid #EA6A00;
+    color: #EA6A00;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-family: Pixelify Sans;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.label h4{
+    font-family: Pixelify Sans;
+    font-size: 18px;
+    font-weight: bold;
+    color: #092056;
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+}
+
+.ducky-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ducky-img {
+    width: 110px;
+    height: 110px;
+    image-rendering: pixelated;
+    object-fit: contain;
+}
+
+.ducky-name {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 20px;
+    color: #092056;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+.timebutton {
+    background-color: #F4C542;
+    border: 2px solid #EA6A00;
+    color: #EA6A00;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-family: Pixelify Sans;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container h2{
+    font-family: Pixelify Sans;
+    font-size: 40px;
+    font-weight: bold;
+    color: #092056;
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+
+.ducky-image{
+    width: 200px;
+    height: 200px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+
+.timer-display{
+    font-family: Pixelify Sans;
+    font-size: 80px;
+    font-weight: bold;
+    color: #092056;
+    margin-top: -25px;
+}
+
+.title-bar {
+    -webkit-app-region: drag;
+    height: 30px;
+    background-color: #D7E0F5;
+    color: #092056;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Pixelify Sans;
+    padding: 0 10px;
+}
+
+.title-text {
+    padding-left: 0;
+}
+
+.title-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cfm-button{
+    background-color: #F4C542;
+    border: 2px solid #EA6A00;
+    color: #EA6A00;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-family: Pixelify Sans;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: -10px
+}
+
+.container h3{
+    font-family: Pixelify Sans;
+    font-size: 35px;
+    font-weight: bold;
+    color: #092056;
+    margin-top: -35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.yn-button {
+    background-color: #F4C542;
+    border: 2px solid #EA6A00;
+    color: #EA6A00;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-family: Pixelify Sans;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+
